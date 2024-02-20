@@ -8,6 +8,28 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.7rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.17rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.83rem;
+}
+p {
+  font-size: 1rem;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
