@@ -17,8 +17,6 @@ export async function GET(req: NextRequest) {
         subs,
         videoID,
       });
-    console.log(Array.isArray(subs), subs);
-
     let subtitle: string = "";
     for (const sub of subs) {
       subtitle += sub.text + " ";
