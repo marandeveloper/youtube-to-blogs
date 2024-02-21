@@ -55,17 +55,17 @@ export default function Home() {
         <form
           id="inputBox"
           onSubmit={submitUrl}
-          className="flex items-center gap-4 rounded-lg border-[1px] border-gray-400 bg-[#262626] px-3 py-[6px]"
+          className="flex max-w-full items-center gap-4 rounded-lg border-[1px] border-gray-400 bg-[#262626] px-3 py-[6px]"
         >
           <input
-            className="border-none bg-transparent text-xl text-[#fff] outline-none placeholder:text-[#757575] "
+            className="w-[70%] flex-grow border-none bg-transparent text-xl text-[#fff] outline-none placeholder:text-[#757575] "
             ref={inputRef}
             placeholder="Enter youtube id...."
             type="text"
           />
           <button
             disabled={loading}
-            className="box-border flex items-center gap-3 rounded-lg bg-[#9C75FF] p-2 text-sm"
+            className="w-[40px] box-border flex items-center gap-3 rounded-lg bg-[#9C75FF] p-2 text-sm"
           >
             <BsStars />
             <span>Generate</span>
