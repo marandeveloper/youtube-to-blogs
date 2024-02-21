@@ -65,7 +65,7 @@ export default function Home() {
           />
           <button
             disabled={loading}
-            className="w-[40px] box-border flex items-center gap-3 rounded-lg bg-[#9C75FF] p-2 text-sm"
+            className=" box-border flex items-center gap-3 rounded-lg bg-[#9C75FF] p-2 text-sm"
           >
             <BsStars />
             <span>Generate</span>
